@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+body {
+	font-family: 'Lato', Arial, sans-serif;
+	font-weight: 400;
+	line-height: 1.5;
+	font-size: 16px;
+	/*font: 400 16px/1.5, 'Lato', Arial, sans-serif ;*/
+	color: #3c3c3c;
+}
+
+.header {
+	margin: auto;
+	padding-top: 285px;
+	width: 1920px;
+	height: 787px;
+	background: url(../img/header-bg.jpg);
+	background-repeat: no-repeat;
+	/*background-color: #383636a1;*/
+	text-align: center;
+}
+
+.header__caption {
+	font-size: 54px;
+	line-height: 1.2;
+	text-transform: uppercase;
+	letter-spacing: 0.016em;
+	color: #ffffff;
+}
+
+.header__text {
+	font-size: 15px;
+	line-height: 1.93;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+.header__scroll {
+	
+}
+
+.header__container {
+	width: 580px;
+	text-align: center;
+	margin: 0px auto 397px; 
+}
+
+/*Logo-svg style*/
+.cls-1, .cls-2 {
+    fill: none;
+    stroke-width: 2px;
+  }
+
+  .cls-1 {
+    stroke: #fff;
+  }
+
+  .cls-1, .cls-2, .cls-3 {
+    fill-rule: evenodd;
+  }
+
+  .cls-2 {
+    stroke: #f6f7fc;
+  }
+
+  .cls-3, .cls-4 {
+    fill: #fff;
+  }
+  /*End Logo-svg style*/
+
+.text-container {
+	width: 902px;
+	margin: auto;
+	border: 2px solid #3c3c3c;
+	border-top: none;
+}
+
+.text-container--white {
+	width: 902px;
+	margin: auto;
+	border: 2px solid #ffffff;
+	border-top: none;
+}
+
+.services {
+	background-image: url(../img/services-bg.jpg);
+	background-repeat: no-repeat;
+}
+
+.about__text-container {
+	font-weight: 300;
+	text-align: center;
+	border: 2px solid #3c3c3c;
+	border-top: none;
+}
+
+.about__caption {
+	/*display: flex;
+	align-items: center;
+	text-transform: uppercase;*/
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  top: -17px;
+}
+
+.about__caption::before,
+.about__caption:after {
+  background-color: #3c3c3c;
+  content: '';
+  flex-grow: 1;
+  height: 2px;
+  position: relative;
+  /*top: 0.5em;*/
+}
+.about__caption::before {
+  margin-right:10px;
+}
+.about__caption::after {
+  margin-left:10px;
+}
+/*/
