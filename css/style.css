@@ -79,7 +79,7 @@ body {
 	border-top: none;
 	text-align: center;
 }
-
+/*блок с белым текстом*/
 .text-container--white {
 	font-weight: 300;
 	width: 902px;
@@ -169,6 +169,39 @@ h2[class$="caption"]::after {
 	margin-left:100px;
 }
 
+.what-do {
+	margin-top: 100px;
+	margin-bottom: 113px;
+}
+
+h3[class$=item] {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.16em;
+	text-transform: uppercase;
+}
+
+.what-do__text {
+	font-size: 14px;
+	line-height: 1.849;
+	font-weight: 300;
+	width: 548px;
+	margin: 30px auto 100px;
+}
+
+
+.grid-container {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	width: 1920px;
+	height: 484px;
+}
+
+div[class*=__col] {
+	flex-basis: calc()
+}
 
 .footer__caption
 /*.about__caption::before,
