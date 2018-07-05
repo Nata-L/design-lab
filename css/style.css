@@ -49,6 +49,10 @@ img {
     margin-top: 243px;
 }
 
+.header__scroll:hover {
+	opacity: 0.5;
+}
+
 .header__container {
 	width: 580px;
 	text-align: center;
@@ -98,6 +102,7 @@ img {
 
 .about {
 	margin-top: 163px;
+	margin-bottom: 160px;
 }
 
 .services {
@@ -111,8 +116,9 @@ img {
 	/*margin: 100px auto 0;*/
 	margin: 0 auto;
 	/*margin-top: 100px;*/
-	width: 1920px;
+	/*width: 1920px;*/
 	height: 488px;
+
 }
 
 p[class$=__text]:not(.what-do__text) {
@@ -134,7 +140,7 @@ h2[class$="caption"] {
 	text-align: center;
 	align-items: center;
 	position: relative;
-	top: -18px;
+	top: -23px;
 }
 
 h2[class$="caption"]::before,
@@ -159,7 +165,7 @@ h2[class$="caption"]::after {
 	text-align: center;
 	align-items: center;
 	position: relative;
-	top: -18px;
+	top: -23px;
 }
 
 .services__caption--white::before,
@@ -227,23 +233,65 @@ h3[class$=item] {
     flex-direction: column;
 }
 
-.item--col-1 {
+.flex-grid__item--col-1 {
     flex: 1 1 calc(30% - 10px);
 }
 
-.item--col-2 {
+.flex-grid__item--col-2 {
     flex: 1 1 calc(40% - 10px);
     
 }
 
 .item__link {
 	display: block;
-
-    position: relative;
+	text-transform: uppercase;
+	font-size: 34px;
+	padding-top: 150px;
+	padding-left: 40px;
+	padding-bottom: 35px;
+	color: #ffffff;
+	background-repeat: no-repeat;
+    /*position: relative;*/
     background-color: transparent;
     cursor: pointer;
-    text-decoration: underline;
+    text-decoration: none;
     height: 237px;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.item__link--1 {
+	background-image: url(../img/grid-img-1.jpg);
+}
+
+.item__link--2 {
+	background-image: url(../img/grid-img-2.jpg);
+}
+
+.item__link--3 {
+	background-image: url(../img/grid-img-3.jpg);
+}
+
+.item__link--4 {
+	background-image: url(../img/grid-img-4.jpg);
+}
+
+.item__link--5 {
+	background-image: url(../img/grid-img-5.jpg);
+}
+
+.item__link--6 {
+	background-image: url(../img/grid-img-6.jpg);
+}
+
+.item__link:hover {
+	/*width: calc(130%);
+	height: calc(130%);*/
+	opacity: 0.5;
+}
+
+.item__link:focus {
+	border: 2px solid #3c3c3c;
 }
 
 .item__link img {
@@ -297,13 +345,17 @@ h2:not(.contact__caption) {
 	width: 300px;
 	font-size: 14px;
 	margin: 20px auto;
+	display: inline-block;
+	margin-top: 10px;
 }
 
-.footer__txt::before {
-	content: '';
-	display: inline-block;
+.f-logo {
 	width: 35px;
 	height: 37px;
-	background-image: url(../img/footer-logo.svg);
-	background-color: #598e593b;
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.footer {
+	text-align: center;
 }
