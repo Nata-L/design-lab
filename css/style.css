@@ -25,6 +25,8 @@ img {
 	background-color: #3c3c3c0f;
 	/*background-color: #383636a1;*/
 	text-align: center;
+	-webkit-background-size: cover;
+	background-size: cover;
 }
 
 .header__caption {
@@ -111,6 +113,7 @@ img {
 	background-image: url(../img/services-bg.jpg);
 	background-repeat: no-repeat;
 	padding-top: 130px;
+	background-size: cover;
 	/*padding-bottom: 110px;*/
 	/*padding: 130px auto 110px;*/
 	/*margin: 100px auto 0;*/
@@ -338,7 +341,10 @@ h2:not(.contact__caption) {
 	color: #ffffff;
 	margin: 40px auto 50px; 
 	text-align: center;
-	vertical-align: center;
+}
+
+.contact__btn:hover {
+	box-shadow: 8px 8px 13px -4px #646464;
 }
 
 .footer__txt {
